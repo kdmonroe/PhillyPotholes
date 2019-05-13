@@ -12,6 +12,7 @@ toc_sticky: true
 ---
 
 ## Philadelpia Potholes Heatmap
+The heatmap below indicates the potholes reported to the city's 311 hotline (within the past 60 days). Zooming in further plots individual 
 
 <div id="folium-chart-1"></div>
 
