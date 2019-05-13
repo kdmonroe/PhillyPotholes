@@ -1,37 +1,26 @@
 ---
-title: "1 Chart, 3 Libraries"
+title: "Altair - Philadelphia Potholes by Neighborhood"
 date: 2019-05-13
 published: true
-tags: [dataviz, altair, vega-lite, observable, holoviews]
-excerpt: "Embedding interactive charts on static pages using Jekyll."
+tags: [dataviz, altair, vega-lite]
+excerpt: "City Potholes by Neighborhood"
 altair-loader:
   altair-chart: "charts/measlesAltair.json"
-observable-loader:
-  url: https://api.observablehq.com/@nickhand/embedding-altair-plots-in-observable.js
-  names:
-    vega-chart: "heatmap"
-hv-loader:
-  holoviews-chart: "charts/measlesHoloviews.html"
 toc: true
 toc_sticky: true
 ---
 
-This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) [Vega-Lite](https://vega.github.io/vega-lite/) via [Observable](https://observablehq.com/), and
-[Holoviews](http://holoviews.org/index.html).
-
 ## Altair Example
 
-Below is a chart of the incidence of measles since 1928 for the 50 US states.
+Below is a chart of the city potholes in the last 107 days. Note: this visualization package is limiting to 5000 observations. 
 
 <div id="altair-chart"></div>
 
-This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
+The code below is HTML for the desired template to match with the above chart, which had a slider for the number of selection of days. This works locally but not sure how to embed within GitHub Pages. 
 
 ```python
-import altair as alt
-alt.renderers.enable('notebook')
-```
-
+# HTML code for template 2 - 
+# template for embedding slider to select for number of days
 <!DOCTYPE html>
 <html lang="en">
   <!-- Start of the Header -->
@@ -80,7 +69,7 @@ alt.renderers.enable('notebook')
 
       <!-- Add a paragraph of text -->
       <p>
-        Below, we show the number of fatal/nonfatal shootings in Philadelphia
+        Below, we show the number of potholes throughout Philadelphia
         grouped by neighborhood.
       </p>
 
@@ -115,3 +104,6 @@ alt.renderers.enable('notebook')
     </script>
   </body>
 </html>
+```
+
+
