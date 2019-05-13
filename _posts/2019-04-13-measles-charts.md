@@ -32,6 +32,90 @@ import altair as alt
 alt.renderers.enable('notebook')
 ```
 
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Start of the Header -->
+
+  <head>
+    <title>Flasked Altair</title>
+    <meta charset="utf-8" />
+
+    <!-- This is boiler plate styling for Altair -->
+    <style>
+      .vega-actions a {
+        margin-right: 12px;
+        color: #757575;
+        font-weight: normal;
+        font-size: 13px;
+      }
+
+      .error {
+        color: red;
+      }
+    </style>
+
+    <!-- Load a better style file -->
+    <link rel="stylesheet" href="https://codepen.io/chriddyp/pen/bWLwgP.css" />
+
+    <!-- Load Javascript for Vega-Related Libraries -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm//vega"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm//vega-lite"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm//vega-embed"
+    ></script>
+  </head>
+  <!-- End of the Header -->
+
+  <body>
+    <div class="container">
+      <!-- Add a header -->
+      <h1>Shootings in Philadelphia</h1>
+
+      <!-- Add a paragraph of text -->
+      <p>
+        Below, we show the number of fatal/nonfatal shootings in Philadelphia
+        grouped by neighborhood.
+      </p>
+
+      <!-- Add a range slider -->
+      <div class="slider">
+        Select the number of days to query:
+        <input
+          type="range"
+          min="30"
+          max="365"
+          step="1"
+          value="365"
+          onchange="embedChart(`/chart?days=${this.value}`, 'chart')"
+        />
+      </div>
+
+      <!-- the div element to embed the chart -->
+      <div id="chart"></div>
+    </div>
+
+    <!-- Render Charts: this has to be at the end!-->
+    <script type="text/javascript">
+      function embedChart(url, div) {
+        // call vegaEmbed for the JSON spec
+        vegaEmbed(`#${div}`, url)
+          .then(function(result) {})
+          .catch(console.error);
+      }
+
+      // run the function that embeds the chart
+      embedChart("/chart", "chart");
+    </script>
+  </body>
+</html>
+
 ## Observable Example
 
 The same plot produced using Vega-Lite in Observable. See [this notebook](https://observablehq.com/@nickhand/embedding-altair-plots-in-observable) for more details.
