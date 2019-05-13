@@ -11,8 +11,8 @@ toc: true
 toc_sticky: true
 ---
 
-## Philadelpia Potholes By Status - Geography
-The point map below indicates the potholes reported to the city's 311 hotline (within the past 60 days). Zooming in further indicates whether individual holes were resolved, visualizing their status as either Open or Closed.
+## Philadelpia Potholes By Status - Points Cluster
+The cluster point map below indicates the potholes reported to the city's 311 hotline (within the past 60 days). Zooming in further indicates whether individual holes were resolved, visualizing their status as either Open or Closed by color and tooltip. 
 
 <div id="folium-chart-1"></div>
 
