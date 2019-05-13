@@ -98,7 +98,7 @@ alt.renderers.enable('notebook')
       </div>
 
       <!-- the div element to embed the chart -->
-      <div id="chart"></div>
+      <div id="altair-chart"></div>
     </div>
 
     <!-- Render Charts: this has to be at the end!-->
@@ -115,23 +115,3 @@ alt.renderers.enable('notebook')
     </script>
   </body>
 </html>
-
-## Observable Example
-
-The same plot produced using Vega-Lite in Observable. See [this notebook](https://observablehq.com/@nickhand/embedding-altair-plots-in-observable) for more details.
-
-<div class="fullwidth">
-  <div id="vega-chart"></div>
-</div>
-
-## Holoviews Example
-
-Lastly, the measles incidence produced using the Holoviews package:
-
-<div id="holoviews-chart"></div>
-
-## Note
-
-See the [raw source code](https://raw.githubusercontent.com/nickhand/static-site-template/master/_posts/2019-04-13-measles-charts.md) of this post for details on how these charts were embedded.
-
-When embedding charts, you will likely need to adjust the width/height of the charts before embedding them in the page so they fit nicely when embedded.
