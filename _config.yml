@@ -18,7 +18,7 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale: "en-US"
 title: "Philly Potholes: Data Wrangling and Data Visualization"
 title_separator: "-"
-name: "Keon Monroe"
+name: "Keon D. Monroe"
 description: "A wholistic viewpoint of potholes reported around the city to the 311 requests hotline."
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
@@ -105,15 +105,15 @@ analytics:
 
 # Site Author
 author:
-  name: "Nick Hand"
+  name: "Keon Monroe"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Director of Finance, Data, and Policy, Philadelphia Controller"
+  bio: "Environmental Informatics - Penn Design"
   location: "Philadelphia"
   email:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      # url: mailto:keon.monroe@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
