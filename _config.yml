@@ -12,14 +12,14 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "contract" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "Philly Potholes: Data Wrangling and Visualization of Urban Phenomena"
+title: "Data Wrangling & Visualization Portfolio"
 title_separator: "-"
-name: "Keon D. Monroe"
-description: "A wholistic viewpoint of potholes reported around the city to the 311 requests hotline."
+name: "Keon Monroe"
+description: "Data Wrangling & Visualization Portfolio"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ analytics:
 author:
   name: "Keon Monroe"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Environmental Informatics - Penn Design"
+  bio: "Masters of Environmental Studies @ Penn. GIS and Spatial Analysis @ PennDesign "
   location: "Philadelphia"
   email:
   links:
