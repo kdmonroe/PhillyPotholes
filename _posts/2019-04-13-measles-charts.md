@@ -1,6 +1,6 @@
 ---
 title: "1 Chart, 3 Libraries"
-date: 2019-04-13
+date: 2019-05-13
 published: true
 tags: [dataviz, altair, vega-lite, observable, holoviews]
 excerpt: "Embedding interactive charts on static pages using Jekyll."
@@ -76,7 +76,7 @@ alt.renderers.enable('notebook')
   <body>
     <div class="container">
       <!-- Add a header -->
-      <h1>Shootings in Philadelphia</h1>
+      <h1>Potholes in Philadelphia</h1>
 
       <!-- Add a paragraph of text -->
       <p>
@@ -98,7 +98,7 @@ alt.renderers.enable('notebook')
       </div>
 
       <!-- the div element to embed the chart -->
-      <div id="altair-chart"></div>
+      <div id="chart"></div>
     </div>
 
     <!-- Render Charts: this has to be at the end!-->
