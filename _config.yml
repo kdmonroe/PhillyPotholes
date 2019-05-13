@@ -16,7 +16,7 @@ minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon
 
 # Site Settings
 locale: "en-US"
-title: "Philly Potholes: Data Wrangling and Visualization of the Problem"
+title: "Philly Potholes: Data Wrangling and Visualization of Urban Phenomena"
 title_separator: "-"
 name: "Keon D. Monroe"
 description: "A wholistic viewpoint of potholes reported around the city to the 311 requests hotline."
