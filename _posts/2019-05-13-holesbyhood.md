@@ -1,6 +1,8 @@
 ---
 title: "Altair - Philadelphia Potholes by Neighborhood"
 date: 2019-05-13
+show_date: false
+read_time: false
 published: true
 tags: [dataviz, altair, vega-lite]
 excerpt: "City Potholes by Neighborhood"
@@ -12,14 +14,14 @@ toc_sticky: true
 
 ## Altair Example
 
-Below is a chart of the city potholes in the last 107 days. Note: this visualization package is limiting to 5000 observations. 
+Below is a chart of the city potholes in the last 107 days. Note: this visualization package is limiting to 5000 observations.
 
 <div id="altair-chart"></div>
 
-The code below is HTML for the desired template to match with the above chart, which had a slider for the number of selection of days. This works locally but not sure how to embed within GitHub Pages. 
+The code below is HTML for the desired template to match with the above chart, which had a slider for the number of selection of days. This works locally but not sure how to embed within GitHub Pages.
 
 ```python
-# HTML code for template 2 - 
+# HTML code for template 2 -
 # template for embedding slider to select for number of days
 <!DOCTYPE html>
 <html lang="en">
@@ -105,5 +107,3 @@ The code below is HTML for the desired template to match with the above chart, w
   </body>
 </html>
 ```
-
-

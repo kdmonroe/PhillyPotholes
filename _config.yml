@@ -10,13 +10,13 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme: "minimal-mistakes-jekyll"
+# theme: "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "Data Wrangling & Visualization Portfolio"
+title: "Data Visualization Portfolio"
 title_separator: "-"
 name: "Keon Monroe"
 description: "Data Wrangling & Visualization Portfolio"
@@ -64,9 +64,9 @@ reCaptcha:
   secret:
 atom_feed:
   path: # blank (default) uses feed.xml
-search: # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
+search:true # true, false (default)
+search_full_content: true # true, false (default)
+search_provider: lunr # lunr (default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -107,8 +107,8 @@ analytics:
 author:
   name: "Keon Monroe"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "Masters of Environmental Studies @ Penn. GIS and Spatial Analysis @ PennDesign "
-  location: "Philadelphia"
+  bio: "A fledging GIS developer."# "Masters of Environmental Studies @ Penn. GIS and Spatial Analysis @ PennDesign "
+  location: "Philadelphia-PA-USA"
   email:
   links:
     - label: "Email"
@@ -280,7 +280,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
